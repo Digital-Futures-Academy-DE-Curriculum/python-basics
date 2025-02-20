@@ -11,9 +11,14 @@ except FileNotFoundError:
     print("Error: The file 'data.txt' was not found.")
 
 # Exercise 2 Solution:
-# This file will automatically be created in the current directory if it does not exist!
+# This file will automatically be created in the current directory 
+# if it does not exist!
 
-lines = ["Line 1: Hello, world!", "Line 2: Python file handling.", "Line 3: Goodbye!"]
+lines = [
+    "Line 1: Hello, world!",
+    "Line 2: Python file handling.",
+    "Line 3: Goodbye!"
+]
 
 with open('output.txt', 'w') as file:
     for line in lines:
@@ -41,7 +46,7 @@ except FileNotFoundError:
     print("Error: The file 'data.csv' was not found.")
 except ValueError:
     print("Error: There was a problem reading the file content.")
-    
+
 # Exercise 5 Solution:
 
 file5 = None
@@ -54,7 +59,7 @@ except FileNotFoundError:
 finally:
     if file5:
         file5.close()
-        
+
 try:
     print(file5)
 except NameError:
@@ -66,7 +71,7 @@ file6 = 'demo_files/data.txt'
 
 with open(file6, 'a') as file:
     file.write("New entry\n")
-    
+
 # Exercise 7 Solution:
 
 file7 = 'demo_files/data.txt'

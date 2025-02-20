@@ -49,7 +49,7 @@ The data professional has completed exercises that demonstrate:
 
 These are the back-bone of any transfer of information across the Internet.  We make a request for information and the endpoint we are requesting from sends a response.  This can take many forms, from a simple web page to a complex API response.
 
-![HTTP Request/Response Cycle](../img/HTTPRequests.png)
+![HTTP Request/Response Cycle](../images/HTTPRequests.png)
 
 ### HTTP Request Structure
 
